@@ -15,3 +15,6 @@
 
 .objective-hud{position:absolute;left:50%;top:58px;transform:translateX(-50%);max-width:52%;padding:6px 10px;border:1px solid #d5f36a55;border-radius:8px;background:#101a23d9;color:#e8f0dc;text-align:center;font:9px DM Mono,monospace;white-space:nowrap;pointer-events:none;backdrop-filter:blur(8px)}
 @media(max-width:650px){.objective-hud{top:52px;max-width:46%;font-size:8px;padding:5px 7px}}
+
+.bomb-button{position:absolute;right:16px;bottom:34px;z-index:1;padding:9px 12px;border:1px solid #f2b95e99;border-radius:10px;background:#382c1fdc;color:#ffe1a4;font:10px DM Mono,monospace;cursor:pointer;backdrop-filter:blur(8px)}.bomb-button.hidden{display:none}.bomb-button:hover{background:#574127}
+@media(max-width:650px){.bomb-button{right:10px;bottom:30px;padding:8px 10px;font-size:9px}}
