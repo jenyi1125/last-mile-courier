@@ -12,3 +12,6 @@
 @media(max-width:650px){.build-hud{top:52px;right:10px;gap:4px}.build-chip{padding:4px 6px;font-size:8px}}
 
 .craft-upgrade{display:block;width:100%;margin-top:8px;text-align:left}
+
+.objective-hud{position:absolute;left:50%;top:58px;transform:translateX(-50%);max-width:52%;padding:6px 10px;border:1px solid #d5f36a55;border-radius:8px;background:#101a23d9;color:#e8f0dc;text-align:center;font:9px DM Mono,monospace;white-space:nowrap;pointer-events:none;backdrop-filter:blur(8px)}
+@media(max-width:650px){.objective-hud{top:52px;max-width:46%;font-size:8px;padding:5px 7px}}
