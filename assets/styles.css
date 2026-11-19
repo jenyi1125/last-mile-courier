@@ -18,3 +18,5 @@
 
 .bomb-button{position:absolute;right:16px;bottom:34px;z-index:1;padding:9px 12px;border:1px solid #f2b95e99;border-radius:10px;background:#382c1fdc;color:#ffe1a4;font:10px DM Mono,monospace;cursor:pointer;backdrop-filter:blur(8px)}.bomb-button.hidden{display:none}.bomb-button:hover{background:#574127}
 @media(max-width:650px){.bomb-button{right:10px;bottom:30px;padding:8px 10px;font-size:9px}}
+
+.pause-button{pointer-events:auto;margin-left:8px;padding:6px 9px;border:1px solid #ffffff30;border-radius:8px;background:#101a23d9;color:#eaf0e4;cursor:pointer;font-size:11px}.pause-button.hidden{display:none}
