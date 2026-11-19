@@ -6,3 +6,4 @@
 .stage{touch-action:none}
 
 .route-select{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:0 auto 12px;max-width:390px}.route-card{padding:10px 11px;text-align:left;border:1px solid #ffffff20;border-radius:11px;background:#1b2a2e;cursor:pointer;min-width:0}.route-card.selected{border-color:var(--lime);background:#28382f;box-shadow:inset 0 0 0 1px #d5f36a40}.route-card strong{display:flex;justify-content:space-between;gap:4px;align-items:center;font-size:10px}.route-card strong span{font:9px 'DM Mono',monospace;color:var(--lime);white-space:nowrap}.route-card small{display:block;margin-top:6px;color:#a9b7b0;font-size:9px;line-height:1.4}@media(max-width:380px){.route-select{grid-template-columns:1fr}.route-card{padding:8px 10px}}
+.base-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
