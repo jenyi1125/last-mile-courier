@@ -1,4 +1,16 @@
 # 開發經驗紀錄
+## 2026-11-26：處理 GitHub Pages artifact 暫時無法讀取
+
+### 做法與觀察
+
+- GitHub Actions 的 Pages artifact 上傳步驟回報成功，但緊接著的部署步驟第一次回報找不到 `github-pages` artifact，線上內容因此停留在舊版。
+- 重跑該次失敗的部署工作後成功，沒有變更原始碼或重建 artifact；並以公開網站上的版本標記確認新路線與設定已發布。
+
+### 未來可使用範圍
+
+- 適用於 Pages workflow 顯示 artifact 上傳成功、但部署步驟回報 artifact 清單為空的情況；先查看該次工作紀錄，再重跑失敗工作，成功後仍需確認網站實際載入新檔案。
+- 若重跑仍失敗，應檢查 Actions artifact 清單與 GitHub Status，再判斷是否為 workflow 設定或服務端問題，不要只以綠色的上傳步驟當作已發布。
+
 ## 2026-11-26：新增有實體貨箱的中央物流園路線
 
 ### 做法與觀察
