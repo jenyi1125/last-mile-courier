@@ -25,3 +25,5 @@
 
 .decoy-button{position:absolute;right:16px;bottom:76px;z-index:1;padding:9px 12px;border:1px solid #e69d6799;border-radius:10px;background:#3b2b24e8;color:#ffe1a4;font:10px DM Mono,monospace;cursor:pointer;backdrop-filter:blur(8px)}.decoy-button.hidden{display:none}.decoy-button:hover{background:#5a3b2d}
 @media(max-width:650px){.decoy-button{right:10px;bottom:70px;padding:8px 10px;font-size:9px}}
+
+.ability-button{position:absolute;right:16px;bottom:118px;z-index:1;padding:9px 12px;border:1px solid #79d7ca99;border-radius:10px;background:#1d3a3be8;color:#c8fff0;font:10px DM Mono,monospace;cursor:pointer;backdrop-filter:blur(8px)}.ability-button.cooldown{opacity:.58}.ability-button:disabled{cursor:default}.ability-button.hidden{display:none}@media(max-width:650px){.ability-button{right:10px;bottom:112px;padding:8px 10px;font-size:9px}}
